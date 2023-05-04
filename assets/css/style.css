@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-body {
+body {  
     background-color: #d9dcd6;
 }
 
@@ -24,6 +24,7 @@ body {
     color: #d9dcd6;
 }
 
+/*navigation bar layout*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,22 +35,26 @@ body {
     text-decoration: none;
 }
 
+/*navigation bar styling*/
 .header nav ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
+/*look of font on navigation bar*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*writing for all small text within the website*/
 p {
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*main picturee for the website*/
 .hero {
     height: 800px;
     width: 100%;
@@ -65,6 +70,7 @@ p {
     margin-left: 20px;
 }
 
+/*layout and design of the side column of the website*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -77,18 +83,21 @@ p {
     color: #ffffff;
 }
 
+/*side column font to match for each individual section within the column*/ 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
     text-align: center;
 }
 
+/* side image spacing*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* subsections structured like Search Engine Optimization with the float left img*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -99,6 +108,7 @@ p {
     
 }
 
+/* subsections structured like online reputation management with the float right img*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,18 +118,21 @@ p {
     color: #ffffff;
 }
 
+/*img layout to the coresponding subsection*/
 .search-engine-optimization img {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
+/*img layout to the coresponding subsection*/
 .online-reputation-management img {
     max-height: 200px;
     float: right;
     margin-right: 25px;
 }
 
+/*description of subsection headers*/
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
